@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	r "leetcode/traverse"
+	r "leetcode/twopointers"
 )
 
 func main() {
-	nums := []int{"eat", "tea", "tan", "ate", "nat", "bat"]}
-	res := r.GroupAnagrams(nums)
+	s := "MCMXCIV"
+	res := r.RomanToInt(s)
 	fmt.Println(res)
 }
