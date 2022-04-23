@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	r "leetcode/twopointers"
+	d "leetcode/dp"
 )
 
 func main() {
-	s := "MCMXCIV"
-	res := r.RomanToInt(s)
+	s := "au"
+	res := d.LengthOfLongestSubstring(s)
 	fmt.Println(res)
 }
