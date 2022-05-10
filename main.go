@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	r "leetcode/traverse"
+	d "leetcode/dp"
 )
 
 func main() {
-	nums := []int{"eat", "tea", "tan", "ate", "nat", "bat"]}
-	res := r.GroupAnagrams(nums)
+	s := "au"
+	res := d.LengthOfLongestSubstring(s)
 	fmt.Println(res)
 }
