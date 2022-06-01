@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	d "leetcode/dp"
+	p "leetcode/twopointers"
 )
 
 func main() {
-	s := "au"
-	res := d.LengthOfLongestSubstring(s)
+	nums := []int{-2, 0, 1, 1, 2}
+	res := p.ThreeSum(nums)
 	fmt.Println(res)
 }
