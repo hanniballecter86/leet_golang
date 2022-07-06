@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	p "leetcode/twopointers"
+	p "leetcode/traverse"
 )
 
 func main() {
-	nums := []int{-2, 0, 1, 1, 2}
-	res := p.ThreeSum(nums)
+	var nums *p.ListNode
+	res := p.ReverseList(nums)
 	fmt.Println(res)
 }
